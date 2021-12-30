@@ -3,7 +3,7 @@ trigger: none
 jobs:
 - template: catalogSourced-TestAndPromote.yml
   parameters:
-    RuleAppName: InvoiceRules
+    RuleAppName: MultiplicationApp
     SourceCatalogName: DEV
     DestinationCatalogName: UAT
     SourceLabel: LIVE
