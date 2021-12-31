@@ -5,7 +5,7 @@ jobs:
   parameters:
     RuleAppName: MultiplicationApp
     SourceCatalogName: DEV
-    DestinationCatalogName: UAT
+    DestinationCatalogName: PROD
     SourceLabel: LIVE
     DestinationLabel: LIVE
     
